@@ -1,195 +1,113 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Meu portfólio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Conexão Campo-Cidade Sustentável</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-    <header class="container text-center">
-        <img src="img/avatar-perfil.png" alt="Avatar do Wagner" class="rounded-circle" width="150" height="150"
-            srcset="">
-        <p class="lead">Eu sou Wagner</p>
-        <h1>Eu sou estudante</h1>
-        <p>Sei um pouco de programação, estou aperfeiçoando minhas abilidades, Veja:</p>
-        <p>Minhas habilidades</p>
-        <div>
-            <p class="badge bg-secondary">HTML</p>
-            <p class="badge bg-secondary">CSS</p>
-            <p class="badge bg-secondary">JavaScript</p>
-            <p class="badge bg-secondary">Scratch</p>
-        </div>
-    </header>
-    <main class="container mt-5">
-        <h2>Meus projetos</h2>
-        <div class="row">
-            <!-- Projeto 1 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/projeto-1.png" class="card-img-top" alt>
-                    <div class="card-body">
-                        <h5 class="card-title">Meu projeto: Página web figma</h5>
-                        <p class="card-text">Este projeto é uma página web que apresenta uma página de um aplicativo 
-                        </p>
-                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
-                            o projeto</button>
-                    </div>
-                </div>
-            </div>
-            <!-- Projeto 2 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/projeto-2.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
-                    <div class="card-body">
-                        <h5 class="card-title">Decidindo o Futuro: Uma Jornada Interativa sobre a Inteligência
-                            Artificial</h5>
-                        <p class="card-text">Este projeto é um jogo interativo baseado em navegador que explora o
-                            impacto e as implicações da Inteligência Artificial (IA) na sociedade, permitindo que as
-                            pessoas jogadoras façam escolhas que influenciam o desenrolar de uma narrativa sobre o
-                            futuro da IA.</p>
-                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
-                            o projeto</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Projeto 3 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/projeto-3.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
-                    <div class="card-body">
-                        <h5 class="card-title">Explorando o Universo: Uma Aventura Interativa em Astronomia com Scratch
-                        </h5>
-                        <p class="card-text">EEste projeto Scratch cria uma experiência interativa educativa sobre
-                            astronomia, permitindo aos usuários explorar informações sobre constelações, eclipses, e a
-                            forma da Terra através de cenários dinâmicos e diálogos informativos.
-                        </p>
-                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
-                            o projeto</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-
-    <!-- Modal 1 -->
-    <div class="modal" id="modal1" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>Este é meu projeto</p>
-                    <img src="img/projeto-1.png" class="img-fluid w-100"
-                        alt>
-                </div>
-                <div class="modal-footer">
-                    <a href="https://www.figma.com/proto/IPJHGoYZKSrUaBHqFgzUz3/Untitled?node-id=9-3&p=f&t=RHSPnQVneSNRRh2w-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=9%3A2">Ver projeto</a>
-                   
-                </div>
-            </div>
-        </div>
+  <header>
+    <div class="container">
+      <h1>🚜 Conexão Campo-Cidade 🏙️</h1>
+      <p>Unindo forças por um futuro verde e sustentável</p>
     </div>
-    <!-- Modal 2 -->
-    <div class="modal" id="modal2" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>O projeto consiste em uma aplicação web interativa, desenvolvida com HTML, CSS, e JavaScript, que
-                        simula uma experiência narrativa centrada no tema da Inteligência Artificial. O objetivo é
-                        engajar os jogadores em um cenário fictício que aborda o avanço da IA e suas possíveis
-                        consequências para a humanidade, destacando a importância da reflexão ética sobre a tecnologia.
-                    </p>
-                    <p>O HTML estrutura o conteúdo da página, dividindo-o em seções como a tela inicial, caixa de
-                        perguntas, alternativas de resposta, e o resultado final baseado nas escolhas do jogador. O CSS
-                        é utilizado para estilizar a página, empregando um esquema de cores futurista e layout
-                        responsivo para melhorar a experiência do usuário. JavaScript é usado para adicionar
-                        interatividade ao jogo, manipulando o DOM para atualizar o conteúdo da página conforme as
-                        escolhas do jogador, e determinando o fluxo da narrativa através de uma série de perguntas e
-                        respostas.</p>
-                    <p>O HTML organiza o conteúdo em um cabeçalho com o título do site, seguido por uma divisão
-                        principal (.container) que apresenta o propósito do site e a coleção de livros em uma seção
-                        flexível (.livros). Cada livro é destacado em seu próprio contêiner (.livro), mostrando uma
-                        imagem da capa, detalhes do livro e um link de compra. O design responsivo é garantido pelo
-                        uso de uma meta tag viewport e um layout flexível que se adapta a diferentes tamanhos de
-                        tela.</p>
-                    <p>Os scripts JavaScript incluem módulos para gerar nomes aleatórios, definir as perguntas e as
-                        lógicas de jogo, como iniciar o jogo, apresentar perguntas e alternativas, processar as escolhas
-                        dos jogadores, e exibir o resultado final. Este design modular facilita a manutenção e a
-                        expansão futura do jogo. A importância das ferramentas utilizadas (HTML, CSS, JavaScript) reside
-                        na criação de uma experiência interativa que não apenas entretém, mas também educa os jogadores
-                        sobre a complexidade ética e social da IA, incentivando a reflexão crítica sobre o papel da
-                        tecnologia em nossas vidas.
-                    </p>
-                    <img src="img/projeto-2.png" class="img-fluid w-100"
-                        alt="Imagem representativa do projeto de uma biblioteca online">
-                </div>
-                <div class="modal-footer">
-                    <a href="https://femascheti.github.io/tecnicas-computacionais-refletindo-sobre-ia/">Ver projeto ao
-                        vivo</a>
-                    <a href="https://github.com/femascheti/tecnicas-computacionais-refletindo-sobre-ia">Ver código do
-                        projeto</a>
-                </div>
-            </div>
-        </div>
-    </div>
+  </header>
 
-    <!-- Modal 3 -->
-    <div class="modal" id="modal3" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>O projeto é uma aplicação educativa interativa focada em ensinar conceitos básicos de
-                        astronomia. Utiliza uma série de scripts associados a diferentes atores (sprites) e
-                        cenários para criar uma experiência de aprendizado envolvente. O objetivo é familiarizar
-                        os usuários com tópicos como as fases da Lua, eclipses, a visibilidade de diferentes
-                        constelações dependendo da localização geográfica na Terra, e a forma da Terra, através
-                        de interações e visualizações dinâmicas.</p>
-                    <p>Cada ator no projeto possui scripts que definem seu comportamento em resposta a eventos
-                        específicos, como o início do programa (quando a bandeira é clicada), cliques do
-                        usuário, ou mensagens recebidas. Estes eventos desencadeiam ações como mudanças de
-                        cenário, movimentos de atores, exibição ou ocultação de atores, e a apresentação de
-                        diálogos informativos. Por exemplo, ao clicar em determinados atores, os usuários podem
-                        "receber" uma prova, o que leva a uma mudança de cenário e a exibição de informações
-                        relevantes ou a visualização de uma constelação específica.</p>
-                    <p>A importância das ferramentas utilizadas, como os blocos de código visual do Scratch,
-                        reside na sua acessibilidade e na capacidade de engajar aprendizes de diferentes idades
-                        no pensamento computacional e na exploração de conceitos científicos de forma
-                        interativa. O uso de cenários, movimentos, e diálogos dinâmicos ajuda a criar uma
-                        experiência de aprendizado mais rica e memorável, encorajando os usuários a explorar e
-                        interagir com o conteúdo de maneira ativa, em vez de passivamente.</p>
-                    <img src="img/projeto-3.png" alt="Projeto 3" class="img-fluid w-100">
-                </div>
-                <div class="modal-footer">
-                    <a href="https://scratch.mit.edu/projects/951732825/">Ver projeto ao vivo</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <footer class="container py-5">        
-        <div>
-            <i class="bi bi-github"></i>
-            <a href="https://animesonlinecc.to/">GitHub</a>
-        </div>
-        <p class="my-5 text-center">© Copyright 2024. Produzido por Fernanda Mascheti</p>
-    </footer>
+  <nav>
+    <ul>
+      <li><a href="#introducao">Introdução</a></li>
+      <li><a href="#campo">Sustentabilidade no Campo</a></li>
+      <li><a href="#cidade">Ação Verde na Cidade</a></li>
+      <li><a href="#conexao">Conexões Sustentáveis</a></li>
+      <li><a href="#educacao">Educação Ambiental</a></li>
+    </ul>
+  </nav>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <main class="container">
+    <section id="introducao">
+      <h2>🌿 Introdução</h2>
+      <p>
+        O campo e a cidade parecem mundos diferentes, mas estão profundamente interligados. A produção de alimentos,
+        o fornecimento de água, o ar puro e os recursos naturais vêm do campo. Já a cidade consome, transforma, distribui
+        e pode incentivar práticas mais sustentáveis. Quando trabalham em harmonia, campo e cidade constroem uma sociedade
+        mais verde e resiliente.
+      </p>
+    </section>
+
+    <section id="campo">
+      <h2>🚜 Sustentabilidade no Campo</h2>
+      <p>
+        O campo é fonte de vida. A agricultura sustentável, o uso consciente da terra, a preservação de nascentes
+        e florestas são essenciais para manter o equilíbrio ecológico. Hoje, produtores rurais adotam práticas como:
+      </p>
+      <ul>
+        <li>Agroflorestas e reflorestamento de áreas degradadas</li>
+        <li>Uso de energia solar e irrigação eficiente</li>
+        <li>Produção orgânica e livre de agrotóxicos</li>
+        <li>Proteção de mananciais e biodiversidade local</li>
+      </ul>
+      <p>
+        Essas ações não só protegem o planeta como também melhoram a qualidade dos alimentos que chegam à cidade.
+      </p>
+    </section>
+
+    <section id="cidade">
+      <h2>🏙️ Ação Verde na Cidade</h2>
+      <p>
+        A vida urbana também pode ser ecológica. Cidades sustentáveis investem em mobilidade limpa, áreas verdes,
+        hortas comunitárias e reciclagem. A conscientização urbana é essencial para diminuir o impacto ambiental e
+        valorizar o campo. Algumas iniciativas importantes são:
+      </p>
+      <ul>
+        <li>Ciclovias e transporte público eficiente</li>
+        <li>Coleta seletiva e economia circular</li>
+        <li>Parques, praças e jardins verticais</li>
+        <li>Consumo consciente e apoio a feiras orgânicas</li>
+      </ul>
+      <p>
+        Quanto mais verde for a cidade, mais ela contribui para aliviar a pressão sobre o meio ambiente.
+      </p>
+    </section>
+
+    <section id="conexao">
+      <h2>🔗 Conexões Sustentáveis</h2>
+      <p>
+        Campo e cidade se conectam diariamente por meio da alimentação, do transporte, da energia e da água. Quando
+        essas conexões são baseadas na sustentabilidade, todos ganham. Exemplos de conexões verdes:
+      </p>
+      <ul>
+        <li>Comércio justo entre produtores rurais e mercados urbanos</li>
+        <li>Iniciativas de turismo rural ecológico</li>
+        <li>Cooperativas agrícolas com entrega urbana</li>
+        <li>Eventos e feiras que aproximam consumidores dos produtores</li>
+      </ul>
+      <p>
+        A tecnologia também ajuda com aplicativos que ligam o campo diretamente ao consumidor, reduzindo intermediários
+        e fortalecendo a economia local.
+      </p>
+    </section>
+
+    <section id="educacao">
+      <h2>📚 Educação Ambiental</h2>
+      <p>
+        Para manter essa conexão viva e sustentável, a educação ambiental é o caminho. Ela precisa estar presente nas escolas,
+        comunidades e empresas. Alguns exemplos:
+      </p>
+      <ul>
+        <li>Oficinas de compostagem urbana</li>
+        <li>Projetos de escolas no campo e na cidade com foco em ecologia</li>
+        <li>Trilhas ecológicas e visitas educativas</li>
+        <li>Campanhas de redução de desperdício e reciclagem</li>
+      </ul>
+      <p>
+        Um cidadão consciente entende o valor do campo e seu papel para um mundo mais equilibrado.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>🌱 Site desenvolvido para promover a conexão verde entre o campo e a cidade. © 2025</p>
+  </footer>
 </body>
-
 </html>
