@@ -5,79 +5,94 @@
   }
   
   body {
-    font-family: 'Segoe UI', sans-serif;
-    background-color: #f8fcd5;
-    color: #000000;
-    line-height: 1.6;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #6DE1D2;
+    color: #fff;
+    line-height: 1.8;
   }
   
-  header {
-    background-color: #149c02;
-    color: rgb(212, 210, 83);
-    padding: 2rem 1rem; 
+  /* Hero Section */
+  .hero {
+    background:#6DE1D2;
+    padding: 60px 30px;
     text-align: center;
+    color: white;
   }
   
-  header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
+  .hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    color:#000000;
   }
   
-  nav {
-    background-color: #66bb6a;
-    padding: 1rem;
-  }
-  
-  nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    flex-wrap: wrap;
-  }
-  
-  nav li {
-    margin: 0 1rem;
-  }
-  
-  nav a {
-    color: rgb(255, 230, 0);
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  nav a:hover {
-    text-decoration: underline;
-  }
-  
-  .container {
+  .hero p {
+    font-size: 1.5rem;
     max-width: 1000px;
     margin: auto;
-    padding: 2rem 1rem;
+    color:#000000;
   }
   
-  section {
-    margin-bottom: 2rem;
-    background-color: #ffffff;
-    border-left: 5px solid #81c784;
-    padding: 1rem 1.5rem;
-    border-radius: 5px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  /* Section Styles */
+  .section {
+    padding: 80px 30px;
+    text-align: justify;
+    font-size: 1.3rem;
+    max-width: 1200px;
+    margin: auto;
   }
   
-  h2 {
-    color: #2e7d32;
-    margin-bottom: 1rem;
-  }
-  
-  ul {
-    padding-left: 1.5rem;
-    margin: 1rem 0;
-  }
-  
-  footer {
-    background-color: #2e7d32;
-    color: white;
+  .section h2 {
     text-align: center;
-    padding: 1rem;
-    font-size: 0.9rem;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  /* Color Themes */
+  .rural {
+    background: linear-gradient(to right, #8bc34a, #558b2f);
+    color: #ffffff;
+  }
+  
+  .urban {
+    background: linear-gradient(to right, #03a9f4, #01579b);
+    color: #ffffff;
+  }
+  
+  .integration {
+    background: linear-gradient(to right, #ff9800, #ef6c00);
+    color: #ffffff;
+  }
+  
+  .cta {
+    background: linear-gradient(to right, #ab47bc, #6a1b9a);
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  /* Button */
+  .btn {
+    display: inline-block;
+    margin-top: 2rem;
+    background: white;
+    color: #6a1b9a;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: #f3e5f5;
+    color: #4a148c;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #212121;
+    text-align: center;
+    padding: 20px;
+    font-size: 1rem;
+    color: #ececec;
   }
