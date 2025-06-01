@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Conexão entre Campo e Cidade</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Conexão entre Campo e Cidade</h1>
+    <p>Unindo o natural ao urbano para um futuro mais equilibrado.</p>
+  </header>
+
+  <main>
+    <section class="content">
+      <h2>Harmonia entre os Espaços</h2>
+      <p>
+        A relação entre o campo e a cidade é essencial para o equilíbrio da sociedade. O campo fornece alimentos, matérias-primas e tranquilidade, enquanto a cidade oferece tecnologia, serviços e infraestrutura. Quando esses dois espaços trabalham juntos, todos ganham.
+      </p>
+    </section>
+
+    <section class="content">
+      <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=1200&q=80" alt="Horta urbana" />
+      <h2>O Papel da Agricultura Urbana</h2>
+      <p>
+        A agricultura urbana tem se destacado como ponte entre o rural e o urbano. Jardins comunitários, hortas em varandas e telhados verdes mostram como é possível cultivar alimentos na cidade, aproximando os cidadãos da origem do que consomem.
+      </p>
+    </section>
+
+    <section class="content">
+      <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80" alt="Sustentabilidade entre campo e cidade" />
+      <h2>Desenvolvimento Sustentável</h2>
+      <p>
+        Integrar campo e cidade é uma estratégia inteligente para promover o desenvolvimento sustentável. Transporte eficiente, mercados locais e políticas públicas conscientes são formas de fortalecer essa conexão e reduzir desigualdades entre os territórios.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - Conexão Campo e Cidade. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
 
