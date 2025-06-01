@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Conexão Campo-Cidade</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto&family=Montserrat&family=Merriweather&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Campo e Cidade: Realidades Conectadas</h1>
+    <p>Explorando o elo vital entre as zonas rurais e urbanas para um futuro sustentável.</p>
+  </header>
+
+  <main>
+    <section class="section campo">
+      <img src=https://images.unsplash.com/photo-1501004318641-b39e6451bec6?autoformat&fitcrop&w1200&q80 alt="Plantação verde ao nascer do sol">
+      <h2>O Campo: Origem da Vida e da Sustentação</h2>
+      <p>
+        A zona rural é o berço da produção de alimentos e da preservação ambiental. As plantações, os pequenos produtores, os rios limpos e as florestas formam um ecossistema fundamental para manter a qualidade de vida nas cidades. O campo fornece a base alimentar, energética e hídrica que alimenta a vida urbana. Mas para isso continuar, é necessário valorizá-lo, apoiando tecnologias sustentáveis, capacitação de trabalhadores e políticas que mantenham o jovem no campo, garantindo a continuidade dessa função essencial.
+      </p>
+    </section>
+
+    <section class="section cidade">
+      <img src="https://images.unsplash.com/photo-1493612276216-ee3925520721?auto=format&fit=crop&w=1200&q=80" alt="Cidade ao entardecer com prédios iluminados">
+      <h2>A Cidade: Inovação, Cultura e Desafios Ambientais</h2>
+      <p>
+        As cidades são centros de conhecimento, de desenvolvimento tecnológico e de oportunidades. Elas abrigam milhões de pessoas e concentram os serviços, a indústria e o comércio. No entanto, essa intensa atividade urbana gera impactos no meio ambiente e uma grande dependência do campo para se manter. O alimento que chega às prateleiras, a água que sai da torneira e a energia que ilumina as ruas têm origem rural. Essa interdependência exige um novo olhar: um planejamento urbano que respeite os limites naturais e fortaleça a relação com o campo.
+      </p>
+    </section>
+
+    <section class="section integracao">
+      <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1200&q=80" alt="Caminho ligando campo e cidade">
+      <h2>Integração Campo-Cidade: Um Caminho para o Equilíbrio</h2>
+      <p>
+        A conexão entre campo e cidade deve ser fortalecida por meio de políticas públicas integradas, transporte eficiente, redes de comércio justo e educação ambiental. Hortas urbanas, feiras orgânicas, programas de turismo rural e incentivo ao cooperativismo são pontes que unem essas duas realidades. Quando o campo é valorizado e a cidade é planejada com consciência, cria-se um ciclo sustentável onde todos ganham. O futuro está em integrar o melhor de cada espaço em um sistema harmônico e justo.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Conexão Campo-Cidade | Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
