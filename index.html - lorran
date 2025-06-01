@@ -1,1 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Conexão entre Campo e Cidade</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Segoe+UI&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>🌾Conexão entre Campo e Cidade🌆</h1>
+    <p>Explorando os caminhos que unem o rural e o urbano em busca de equilíbrio e sustentabilidade.</p>
+  </header>
+
+  <main>
+    <section class="content">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80" alt="Vista de campo verdejante" />
+      <h2>O Campo: Raiz da Produção e Sustentabilidade</h2>
+      <p>
+        O campo representa a base da civilização humana. É nele que nascem os alimentos que consumimos, os recursos naturais que utilizamos e o equilíbrio ecológico que sustenta a vida no planeta. A zona rural, muitas vezes esquecida nas discussões modernas, é essencial para manter a segurança alimentar, a biodiversidade e o estilo de vida sustentável. 
+        Valorizar o campo é valorizar a origem de tudo. Investimentos em infraestrutura, tecnologia agrícola e educação rural fortalecem não só a economia do campo, mas também sua relação vital com as áreas urbanas. O campo não é apenas o fornecedor de insumos; ele é um espaço vivo, dinâmico e indispensável.
+      </p>
+    </section>
+
+    <section class="content">
+      <img src="https://images.unsplash.com/photo-1508057198894-247b23fe5ade?auto=format&fit=crop&w=1200&q=80" alt="Panorama urbano com arranha-céus" />
+      <h2>A Cidade: Inovação, Conexão e Desafios Urbanos</h2>
+      <p>
+        As cidades são centros pulsantes de inovação, cultura, conhecimento e transformação social. Elas concentram grande parte da população mundial e funcionam como polos de desenvolvimento econômico e tecnológico. No entanto, também enfrentam desafios como desigualdade, poluição, mobilidade urbana precária e dependência de recursos externos.
+        É justamente nesse contexto que a conexão com o campo se torna indispensável. Ao trazer elementos do meio rural para o espaço urbano — como agricultura urbana, espaços verdes e consumo consciente — as cidades podem se tornar mais humanas, saudáveis e sustentáveis. As soluções para os problemas urbanos não estão apenas na tecnologia, mas também na reconexão com a natureza e seus ciclos.
+      </p>
+    </section>
+
+    <section class="content">
+      <img src="https://images.unsplash.com/photo-1505245208761-ba872912fac0?auto=format&fit=crop&w=1200&q=80" alt="Integração entre campo e cidade" />
+      <h2>Conectando Realidades: Caminhos para um Futuro Integrado</h2>
+      <p>
+        A conexão entre campo e cidade não é apenas física, mas simbólica, econômica e social. Programas de incentivo à produção local, feiras diretas do produtor, sistemas agroflorestais urbanos e políticas públicas integradas são exemplos de estratégias que promovem essa integração. A mobilidade sustentável, o turismo rural e a educação ambiental também têm papel central nessa construção.
+        Um futuro mais justo e equilibrado depende da valorização de ambas as realidades. Ao unirmos o potencial criativo das cidades com a sabedoria natural do campo, conseguimos construir sociedades resilientes, sustentáveis e conscientes. O diálogo entre esses dois mundos é o caminho para uma vida mais harmoniosa e integrada para todos.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - Conexão Campo e Cidade. Desenvolvido com propósito e consciência.</p>
+  </footer>
+</body>
+</html>
 
